@@ -113,13 +113,15 @@ return sb.toString();</pre>
 
 ### 다음 javascript 소스코드가 어떻게 동작할 지 서술하시오 ###
 <pre>function f() {
-    for ( var i = 0; i < 3; i++ ) {
+    for ( var i = 0; i &lt; 3; i++ ) {
         setTimeout( function() {
             alert( i );
 		}, 1000);
     }
 }
 f(); // f를 실행한다</pre>
+
+
 
 > 정답율 0%
 
