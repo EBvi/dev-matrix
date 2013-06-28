@@ -89,6 +89,7 @@ modularity, polymorphism, and inheritance. Many modern programming languages now
 
 ### 다음 소스코드를 읽고 무엇을 하는 프로그램인지 서술하시오 ###
 
+
 <pre>char[] arr = someString.toCharArray(); // 해당 문자열로부터 캐릭터 배열을 선언한다
 StringBuffer sb = new StringBuffer();
 int size = 0;
@@ -100,6 +101,7 @@ for(char c : arr) {
 	}
 }
 return sb.toString();</pre>
+.
 
 > 정답율 10%
 
