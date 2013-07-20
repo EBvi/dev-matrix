@@ -149,7 +149,7 @@ seq | name
 
 > 정답율 10%
 
-- full outer join 문법을 이해하고 있는지 평가
+- left outer join 문법을 이해하고 있는지 평가
 
 ## 지원자에 대한 통계
 
