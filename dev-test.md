@@ -61,14 +61,16 @@ modularity, polymorphism, and inheritance. Many modern programming languages now
 
 ##### - 너비가 250px이고 높이가 300px이며, 배경색이 검은색인 hello 클래스
 
-<pre>&lt;div class="hello">안녕하세요&lt;/div>
-&lt;style type="text/css">
+``` html
+<div class="hello">안녕하세요</div>
+<style type="text/css">
 .hello {
 
 
 
 }
-&lt;/style></pre>
+</style>
+```
 
 > 정답률 25%
 
@@ -90,18 +92,19 @@ modularity, polymorphism, and inheritance. Many modern programming languages now
 ### 다음 소스코드를 읽고 무엇을 하는 프로그램인지 서술하시오 ###
 
 
-<pre>char[] arr = someString.toCharArray(); // 해당 문자열로부터 캐릭터 배열을 선언한다
+``` java
+char[] arr = someString.toCharArray(); // 해당 문자열로부터 캐릭터 배열을 선언한다
 StringBuffer sb = new StringBuffer();
 int size = 0;
 for(char c : arr) {
-	size += (c > 255) ? 2 : 1; // 조건에 따라 2 또는 1을 증가시킨다
-	sb.append(c);
-	if(size >= 80) {
-		break;
-	}
+    size += (c > 255) ? 2 : 1; // 조건에 따라 2 또는 1을 증가시킨다
+    sb.append(c);
+    if(size >= 80) {
+        break;
+    }
 }
-return sb.toString();</pre>
-.
+return sb.toString();
+```
 
 > 정답률 10%
 
@@ -112,14 +115,16 @@ return sb.toString();</pre>
 ---
 
 ### 다음 javascript 소스코드가 어떻게 동작할 지 서술하시오 ###
-<pre>function f() {
+``` javascript
+function f() {
     for ( var i = 0; i &lt; 3; i++ ) {
         setTimeout( function() {
             alert( i );
-		}, 1000);
+        }, 1000);
     }
 }
-f(); // f를 실행한다</pre>
+f(); // f를 실행한다
+```
 
 
 
@@ -134,7 +139,8 @@ f(); // f를 실행한다</pre>
 ### 다음 조건을 만족하는 SQL 질의문을 작성하시오
 사원번호(emp.seq), 이름(emp.name), 부서명(dept.name) 컬럼이 매핑되며, **모든 사원**이 전부 출력되어야 함
 
-<pre>emp 테이블
+```
+emp 테이블
 ------------------
 seq | name | dept_seq
 1 | 홍길동 | 2
@@ -145,7 +151,8 @@ dept 테이블
 ------------------
 seq | name
 1 | 개발부
-2 | 운영부</pre>
+2 | 운영부
+```
 
 > 정답률 10%
 
