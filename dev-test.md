@@ -5,30 +5,30 @@
 
 ---
 
-### java로 hello world를 출력하는 main 메서드를 작성하시오. 
+### Java로 hello world를 출력하는 main 메소드를 작성하시오.
 > 정답률 30%
 
-- main 메서드를 작성할 줄 아는 것은 이 분야에 발을 담그는 것에 대한 최소한의 예의(?)라고 생각해서 출제
-- 약간의 오타는 감안할 수 있으나 public static void main은 절대로 틀리면 안됨
+- main 메소드를 작성할 줄 아는 것은 이 분야에 발을 담그는 것에 대한 최소한의 예의(?)라고 생각해서 출제
+- 약간의 오타는 감안할 수 있으나 public static void main은 절대로 틀리면 안 됨
 
 ---
 
-### alz로 압축을 하거나, hwp로 문서를 작성하여 외국에 전송하면 안되는 이유를 설명하시오 
+### alz로 압축을 하거나, hwp로 문서를 작성하여 외국에 전송하면 안 되는 이유를 설명하시오.
 >정답률 90%
 
 - 외국에서 사용하지 않는다 혹은 표준이 아니라는 등의 답변을 쓰면 정답으로 인정
 
 ---
-### for문을 사용하여 1에서 10까지의 합을 구하는 프로그램을 작성하시오. (main 메서드 불필요) 
+### for문을 사용하여 1에서 10까지의 합을 구하는 프로그램을 작성하시오. (main 메소드 불필요)
 > 정답률 60%
 
 - 기초적인 문법을 숙지하고 있는지 평가
-- 대부분 부호를 잘못써서 틀림 (1에서 10까지 더하라면 0<=10 또는 0<11로 써야함)
+- 대부분 부호를 잘못 써서 틀림 (1에서 10까지 더하라면 0<=10 또는 0<11로 써야 함)
 - 변수 선언을 하지 않아도 정답으로 인정함
 
 ---
 
-###  다음은 javadoc의 String.replaceAll 메서드에 대한 설명이다. 우리말로 해석하시오
+### 다음은 javadoc의 String.replaceAll 메소드에 대한 설명이다. 우리말로 해석하시오.
 > 정답률 15%
 
 Replaces each substring of this string that matches the given regular expression with the given replacement.
@@ -45,9 +45,9 @@ Replaces each substring of this string that matches the given regular expression
 
 ---
 
-### 다음 빈칸을 채우시오
+### 다음 빈칸을 채우시오.
 
-(-----------------------) is a programming paradigm that uses "objects" – data structures consisting of data fields and methods together with their interactions – to design applications and computer programs. Programming techniques may include features such as data abstraction, encapsulation, 
+(-----------------------) is a programming paradigm that uses "objects" – data structures consisting of data fields and methods together with their interactions – to design applications and computer programs. Programming techniques may include features such as data abstraction, encapsulation,
 modularity, polymorphism, and inheritance. Many modern programming languages now support (-----------------------)
 
 > 정답률 20%
@@ -57,7 +57,7 @@ modularity, polymorphism, and inheritance. Many modern programming languages now
 
 ---
 
-### 다음 주어진 div의 클래스를 정의하시오
+### 다음 주어진 div의 클래스를 정의하시오.
 
 ##### - 너비가 250px이고 높이가 300px이며, 배경색이 검은색인 hello 클래스
 
@@ -74,22 +74,22 @@ modularity, polymorphism, and inheritance. Many modern programming languages now
 
 > 정답률 25%
 
-- 기초적인 css 문법을 알고 있는지 평가
+- 기초적인 CSS 문법을 알고 있는지 평가
 - background나 background-color 모두 정답
 
 ---
 
-### 세션과 쿠키의 차이점에 대해 간략히 설명하시오 ###
+### 세션과 쿠키의 차이점에 대해 간략히 설명하시오.
 
 > 정답률 30%
 
 - 서버와 클라이언트 차이에 대해 서술하면 정답으로 인정
 - 라이프 사이클에 대한 설명이 있다면 금상첨화
-- 세션이 보안적으로 안전하다는 대에는 이견이 있으나, 여기서는 그렇게 기술해도 정답으로 인정
+- 세션이 보안적으로 안전하다는 데에는 이견이 있으나, 여기서는 그렇게 기술해도 정답으로 인정
 
 ---
 
-### 다음 소스코드를 읽고 무엇을 하는 프로그램인지 서술하시오 ###
+### 다음 소스코드를 읽고 무엇을 하는 프로그램인지 서술하시오.
 
 
 ``` java
@@ -114,7 +114,7 @@ return sb.toString();
 
 ---
 
-### 다음 javascript 소스코드가 어떻게 동작할 지 서술하시오 ###
+### 다음 javascript 소스코드가 어떻게 동작할지 서술하시오.
 ``` javascript
 function f() {
     for ( var i = 0; i &lt; 3; i++ ) {
@@ -136,7 +136,7 @@ f(); // f를 실행한다
 
 ---
 
-### 다음 조건을 만족하는 SQL 질의문을 작성하시오
+### 다음 조건을 만족하는 SQL 질의문을 작성하시오.
 사원번호(emp.seq), 이름(emp.name), 부서명(dept.name) 컬럼이 매핑되며, **모든 사원**이 전부 출력되어야 함
 
 ```
