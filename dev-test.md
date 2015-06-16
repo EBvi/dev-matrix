@@ -59,7 +59,7 @@ modularity, polymorphism, and inheritance. Many modern programming languages now
 
 ### 다음 주어진 div의 클래스를 정의하시오
 
-##### - 넓이가 250px이고 높이가 300px이며, 배경색이 검은색인 hello 클래스
+##### - 너비가 250px이고 높이가 300px이며, 배경색이 검은색인 hello 클래스
 
 <pre>&lt;div class="hello">안녕하세요&lt;/div>
 &lt;style type="text/css">
